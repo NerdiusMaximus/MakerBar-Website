@@ -1,0 +1,19 @@
+So maybe the robots haven't taken over just yet, but there were signs of life in <a href="www.njitrobotics.com" target="_blank">NJIT Robotics club's</a> giant cube-shaped robot chassis by the end of last Wednesday's open night.
+
+An old relic of the <del>trade federation  </del> Innovation First robotics competitions that <a href="www.njit.edu" target="_blank">NJIT </a>used to collaborate with Newark high schools to build their robots, this gentle giant has been gathering dust for years until it fell into the club's hands. Over the past few weeks, we've been organizing some interest on both NJIT's budding robotics club brass and MakerBarBarians to revitalize the robot and begin a series of collaborative projects. We have invited them to use our workshop and aim to pool our resources and expertise, and so far a lot of progress has been made even in only one night.
+
+[gallery ids="747,746,745,744,742,741"]
+
+The ultimate goal is to create a mobile robotics platform for all kinds of projects to come. Notably, the first project being talked about is a mobile base for an automated Nerf Vulcan turret. (sauce: <a href="http://www.instructables.com/id/Nerf-Vulcan-Sentry-Gun/?ALLSTEPS" target="_blank">http://www.instructables.com/id/Nerf-Vulcan-Sentry-Gun/?ALLSTEPS</a>). Perhaps with some innovation, other features can be added like a method for autonomously collecting and re-loading darts. A lot of the details I will leave to your imagination as we still have a long way to go, but our gears are turning and I can hardly wait to see what we can come up with together.
+
+Powered by two old <a href="http://content.vexrobotics.com/docs/ifi-v884-users-manual-9-25-06.pdf" target="_blank">Victor 884 speed controllers</a>, this robot just needs a few nights of TLC and some spare parts to be ready to get upgraded to remote control. Once this benchmark is achieved, we will move on towards autonomous navigation, adding shaft encoders and sonar sensors on the bumpers and maybe sharp IR or cameras and/or a Microsoft Kinnect. Future plans may also include GPS modules and 802.11 wireless, and if we can build/find/'acquire' one, to experiment with LIDAR.
+
+MakerbarBarians Bilal and Travis and Jordan and myself  were on hand to meet Pat and Mike from NJIT Robotics who were eager to get things going. Once we got the bot inside the workshop (a feat itself at it's size), we set about attaching the drive chains, building motor brackets, hooking the motor up to bench power, and other odds and ends. Once we put power to those old Victors and heard the fans buzz to life, we knew it was going to be possible to get some chains turning. In the most promising stage, we were able to turn on one of the motors with the speed controller for a few seconds before the sheer peak current tripped the ATX's internal breaker.
+
+Problems left to be solved are abundant, including battery power and charging of those batteries, power train wiring, finalizing the motor mounting hardware, and other tasks. Apart from this, we also will need to figure out where to attach encoders, sonar bumpers, and other sensors (including the radio transceiver). But these and other challenges are only the beginnings, and we hope to make the robotics club regular guests. Most likely their visits will take place on Wednesdays, but stay glued to Meetup to see information about any future robot hack nights, which I will be posting up soon.
+
+If you are interested, email me and I will make sure to include you on all the robot action and updates.
+
+Peace, love, and nerf-gun-wielding robots,
+
+-M-
