@@ -1,0 +1,11 @@
+<small><em>Cross post from <a href="http://channel3b.wordpress.com/2013/02/03/raspberry-python-talking-clock-hoboken-makerbar-february-9/">http://channel3b.wordpress.com/2013/02/03/raspberry-python-talking-clock-hoboken-makerbar-february-9/</a></em></small>
+
+&nbsp;
+
+Next Saturday I'll be teaching my third Raspberry Python class.  Following up on <a title="Raspberry Python Class - Hardware + Python to Control it" href="http://www.meetup.com/MakerBar/events/83331802/" target="_blank">the initial class</a>, and <a title="Raspberry Python - Model Train Control" href="http://www.meetup.com/MakerBar/events/93116822/" target="_blank">the train class</a>.  Like the others, <a title="Raspberry Python - Talking Clock" href="http://www.meetup.com/MakerBar/events/99976032/" target="_blank">this workshop</a> will cover the basic use of a Raspberry Pi, but it's coming together really well, I've got a Pi sitting on my desk chattering inane things from my twitter feed at me and actually, it's proving more useful than I expected.  Just in developing the project I'm finding more out about my friends than I had before--mostly some corporate feeds to unfriend and some friends to check up on.
+
+The class will run about 2-3 hours so we'll have time to get our Pis setup, on the latest version of Raspbian, which already includes NTP, and really dive into the programming and improvement.  Since most of our time and effort will be software, the hardware is perhaps not so impressive, no loop of train track here, but this is a picture, of the prototype
+
+<img alt="" src="http://photos4.meetupstatic.com/photos/event/1/c/9/0/event_200287312.jpeg" />
+
+If you're interested in coming, please <a title="Raspberry Python - Talking Clock" href="http://www.meetup.com/MakerBar/events/99976032/" target="_blank">rsvp at meetup here</a>.  And if you need a Pi or SD card, leave a comment there, a few are on order so we should have some.
