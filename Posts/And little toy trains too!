@@ -1,0 +1,17 @@
+
+
+Just a little glimpse of how our December training is going, last Wednesday Eric and I worked up the design for the <a href="http://meetu.ps/qH220">Raspberry Python class on December 9th</a>. We got this little N-Guage train running around controlled by this Pi. 
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2012/12/wpid-20121128_234448.jpg"><img class="alignnone" alt="image" src="http://blog.makerbar.com/wp-content/uploads/2012/12/wpid-20121128_234448.jpg" /></a> 
+
+The breadboard there has a transistor and a MOSFET rigged up to control the 12V power to the train using the 3.3V power from the Pi. This allows both simple switching and PWM, for which the Pi is plenty fast enough to do in software. 
+<a href="http://blog.makerbar.com/wp-content/uploads/2012/12/wpid-20121128_234502.jpg"><img class="alignnone" alt="image" src="http://blog.makerbar.com/wp-content/uploads/2012/12/wpid-20121128_234502.jpg" /></a> 
+
+
+
+Saturday we worked on the other part of the class, the Hall effect sensor. The sensors for the class aren't in yet so we used an Electric Imp to detect the train passing since their Hannah development boards have a built in sensor. 
+
+[caption id="" align="alignnone" width="500" caption="Not much to see, the sensor was off the bench when I took this. "]<a href="http://blog.makerbar.com/wp-content/uploads/2012/12/wpid-20121130_235016.jpg"><img class="alignnone" alt="image" src="http://blog.makerbar.com/wp-content/uploads/2012/12/wpid-20121130_235016.jpg" /></a>[/caption] 
+
+
+This is all leading up to the <a href="http://meetu.ps/qH220">Raspberry Python - Model Trains Control class which you can get more details on or sign up for here</a>.
