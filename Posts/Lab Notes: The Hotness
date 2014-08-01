@@ -1,0 +1,65 @@
+Zack here with another crazy project! I present to you the MakerBar's new custom reflow toaster... <strong>THE HOTNESS!</strong>
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.53.43.jpg"><img alt="2013-01-23 00.53.43" src="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.53.43-1024x768.jpg" width="620" height="465" /></a> <a href="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-15-00.20.47.jpg">
+</a>
+
+Once upon a time, this was an ordinary KitchenAid toaster oven living an upper-middle-class toaster-oven life. Suddenly, Hurricane Sandy swept in, and everything changed. It was swamped in storm water, control board shorted, thrown on the street by its owner, recovered by MakerBar member Kush, and given to myself. It was a toaster oven barely alive, but I could rebuild it; better, faster, and stronger than ever before. I called it <b>The Hotness</b>.
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.51.57.jpg"><a href="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.51.57.jpg"><img alt="2013-01-23 00.51.57" src="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.51.57-1024x768.jpg" width="620" height="465" /></a></a>
+
+While a regular toaster oven is designed to toast pizza, a reflow oven is designed to melt solder. You take an intricate circuit board, tack tiny surface-mount components in place with little blobs of solder paste, and toss it in <strong>The Hotness</strong>. Its microcontroller switches the elements to specific temperatures that melt the solder without damaging the components, finishing the entire circuit board in one shot! I also coded in temperature curves for Sculpey clay and Shrinky-Dinks, because SCIENCE.
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.52.54.jpg"><img alt="2013-01-23 00.52.54" src="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.52.54-1024x768.jpg" width="620" height="465" /></a>
+
+If you're not interested in the implementation details, you can stop here and look at the above pix of a toaster oven with a missile switch, arcade buttons, and LCD readout, or possibly use it in action at the MakerBar. Otherwise, read on!
+
+<strong>The Hotness</strong> is just a particularly tidy SparkFun Reflow Toaster build. I got lucky in a few places, and skilled in others, that made it turn out pretty damn well. The toaster oven turned out to be fairly high-end, with four ceramic heating elements. It didn't work when Kush recovered it, but I checked continuity on the elements and found that they were OK. I suspected that the elements were being fed with straight 120V AC wall current, which I tested by plugging them directly into a wall because I'm a reckless motherf****r who lives on the edge*.
+
+Now, the Reflow Toaster controller from SparkFun is designed to splice into the cord<em> </em>of a functioning toaster oven. Because this oven's elements use straight mains voltage at full current, the built-in board could be replaced altogether with the Reflow Toaster controller. This let me move everything inside the case and break out its controls outside. I suspect this works with most toasters, making me wonder why SparkFun didn't just do that in the first place. <em>
+</em>
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-22-21.36.41.jpg"><img alt="2013-01-22 21.36.41" src="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-22-21.36.41-1024x768.jpg" width="620" height="465" /></a>
+
+The control panel is a piece of scrap 1/4" acrylic, with some SparkFun arcade buttons and missile switch salvaged from other projects as controls. I bored holes for the controls with a spade bit, slowly expanding the hole to avoid cracking. Then I rounded the corners to fit with a rasp, and solvent-welded scraps around the edges to form a frame for screwing it into position. I test-fitted everything often, and used Plumber's Goop sealant to stick the metal facade to the panel when it all fit.
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-15-00.20.47.jpg"><img alt="2013-01-15 00.20.47" src="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-15-00.20.47-1024x768.jpg" width="620" height="465" /></a>
+
+The LCD got a Sick of Beige-style case made of scrap acrylic and motherboard standoffs. For maximum viewability, I added hinges from a picture frame that I pulled apart to use for PCB exposure. I made a wire harness and mounted the display above the controls.
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.54.32.jpg"><img alt="2013-01-23 00.54.32" src="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.54.32-1024x768.jpg" width="620" height="465" /></a>
+
+I fed the thermocouple through a screw hole and tied a loose knot to keep it in. When I reflow a board, I can attach this temperature probe to the ground plane with Kapton tape to get the most accurate reading.
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.53.09.jpg"><img alt="2013-01-23 00.53.09" src="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.53.09-1024x768.jpg" width="620" height="465" /></a>
+
+Normally, the Reflow Toaster needs two plugs, one for the control board's wall wart and another for the oven itself. I broke open the wart, replaced the plug prongs with wires, and spliced it into the oven's cord, allowing the entire system to work off one plug.
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-22-21.37.02.jpg"><img alt="2013-01-22 21.37.02" src="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-22-21.37.02-1024x768.jpg" width="620" height="465" /></a>
+
+With everything wired up, I put a sheet of header wrap (muffler insulation) on the inner panel to protect the electronics, drilled mounting and routing holes in the body shell, and mounted the electronics with standoffs.
+
+The moment of truth...
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.54.45.jpg"><img alt="2013-01-23 00.54.45" src="http://blog.makerbar.com/wp-content/uploads/2013/02/2013-01-23-00.54.45-1024x768.jpg" width="620" height="465" /></a>
+
+And that's how I built <strong>The Hotness</strong>. I immediately donated it to the MakerBar, so everyone can make surface-mount boards!
+
+Next steps: Airbrushed flames and internal spotlights.
+
+&nbsp;
+
+*I also had a fire extinguished handy and two more toaster ovens if I ruined this one
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
