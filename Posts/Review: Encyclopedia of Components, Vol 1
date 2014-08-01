@@ -1,0 +1,27 @@
+Today, I review <em>The Encyclopedia of Electronic Components, Volume 1</em> by Charles Platt, published by O'Reilly under the Make Magazine name. I'm a guy who hacks <em>a lot</em> of electronics, and the MakerBar' resident "guy everyone asks to solve their circuit problems."
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/04/cover.jpg"><img class="aligncenter size-full wp-image-620" alt="cover" src="http://blog.makerbar.com/wp-content/uploads/2013/04/cover.jpg" width="493" height="600" /></a>
+
+So, while I read through the book, I kept two questions in mind:
+1) Will this fill gaps of my own self-taught electronics knowledge?
+2) When someone asks me for help, can I just hand them this book? Seriously people, leave me alone.
+
+Disclosure: The publisher, O'Reilly, provided a free review copy of the <em>Encyclopedia </em>through the MakerBar's status. I love biting the hand that feeds me and would have loved to test O'Reilly's moral integrity by slamming their book... except it's <em>actually really damn helpful!</em>
+
+<strong>What it is: <i></i></strong>A Who's Who of circuit thingies with a wide range of high-level information on each part. It covers LCR, switches, electromechanical, diodes, voltage converters, and transistors. For each component, sections explain What It Does, How It Works, Variants, Values, How to Use It, and What Can Go Wrong. Sample circuits, graphs, diagrams, and color pictures explain concepts, and technical terms are highlighted and defined inline.
+
+<strong>What it isn't: </strong>A tutorial, introduction, or reference. The <em>Encyclopedia</em> explains what each component can do, but offers very little help to actually do it. The information is tightly packed and assumes you know basic circuit concepts, making it unsuitable for new hackers. Many uses and critical formulae of each component are missing, making it an inconsistent help. The book is not organized for quick reference.
+
+<strong>Who should read it: </strong>Hardware hackers who design their own projects, and engineering students. The <em>Encyclopedia</em> is at its best when you're browsing. To a rookie circuit builder, this is the absolute best way to "see what's out there". A self-taught hacker will find that this book fills in many little gaps that circumstance just hasn't taught yet. I wish I had this book while taking my sophomore circuits class - the professors teach the equations about each component but never explain what it actually does!
+
+<strong>Who shouldn't bother: </strong>Brand-new hackers or veterans. While the book is clearly written, it's still useless without some basic electronics literacy. A beginning hacker would only get confused - it doesn't explain how to use the components or what makes various properties significant. An expert has nothing to gain from this book, as the information is very high-level, everyday usage.
+
+<strong>What's good: </strong>Great illustrations, clear writing, and a to-the-point style get to the important information right away. This is all killer, no filler - here is a component, here's how it works, here are some different versions, here's what you can do with it, here's how to blow it up, next component. You can open the book to any place and learn something new.
+
+<strong>What's bad: </strong>Poor organization and layout make it virtually impossible to find the exact fact you're looking for. The component names on the headers are near the book's spine, so you can't flip through the book to land on your target component. Important info is buried in odd places. The book has a bad habit of putting a figure on one page and the explanation on another. Components and subassemblies are shown in diagrams but model numbers are not provided. Terms usually found in datasheets, like h_fe and input impedance, are mentioned in the text but not included in the index.
+
+<strong>Buy, borrow, or bootleg? </strong>Buy, if you find yourself making many of your own electronics projects. You'll cut out hundreds of hours of aimless Googling. You'll fill in gaps in your knowledge and have a wider array of ideas to choose between when you're at the breadboard. You'll also be forewarned about the tricky issues that can destroy components, saving you debugging time and money.
+
+<strong>Does it solve my problem?</strong> I now have more information to call on when designing and troubleshooting my many circuits. However, I don't feel comfortable giving this book to a brand-new hacker in need of immediate help. Looks like I'm stuck being the resident know-it-all after all.
+
+<strong>The Zack Freedman Objectively Arbitrary Rating: </strong>Four out of five TI boost/buck converters, which totally should have been named in the text, because I want one.
