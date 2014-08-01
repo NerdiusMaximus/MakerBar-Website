@@ -1,0 +1,23 @@
+<a href="http://blog.makerbar.com/wp-content/uploads/2012/09/A3W_ZlZCUAALaST.jpeg"><img class="aligncenter size-medium wp-image-274" title="A3W_ZlZCUAALaST" src="http://blog.makerbar.com/wp-content/uploads/2012/09/A3W_ZlZCUAALaST-225x300.jpeg" alt="" width="225" height="300" /></a>
+
+I'm Zack Freedman, part man, part Raspberry Pi! I'm writing this blog post from a wearable cyborg Raspberry Pi, or as I like to call it, <strong>Pi in the Face.</strong>
+
+When Rob Bishop of the Raspberry Pi Foundation visited the space yesterday, he challenged the attendees to build a project using the tiny open-source computer. I decided, why not take advantage of its small size to make myself a cyborg?
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2012/09/2012-09-22-01.37.58.jpg"><img class="aligncenter size-medium wp-image-258" title="2012-09-22 01.37.58" src="http://blog.makerbar.com/wp-content/uploads/2012/09/2012-09-22-01.37.58-300x225.jpg" alt="" width="300" height="225" /></a>
+
+Wearable technology is my main area of hacking, so I had some parts lying around. The wearable display uses the innards of a pair of MyVu Crystal video glasses - these are tricky to disassemble, so check <a href="http://www.martinmagni.com/blog/2010/07/myvu-crystal-disassembled.html" target="_blank">this tutorial</a>. You can cut off the earbuds and one microdisplay without breaking the functionality. I bent a coat hanger into a behind-the-ear mount, electrical-taped the parts in place, and viola, monocular HUD.
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2012/09/2012-09-22-16.27.29.jpg"><img class="aligncenter size-medium wp-image-260" title="2012-09-22 16.27.29" src="http://blog.makerbar.com/wp-content/uploads/2012/09/2012-09-22-16.27.29-300x225.jpg" alt="" width="300" height="225" /></a>
+
+The brains of the operation are, of course, a RasPi. I fitted it with a 2GB micro-SD card in the excellent <a href="http://quilix.com/pio" target="_blank">Quilix pIO mini-adapter</a>, Raspbian, a Duracell phone recharger, and a <a href="http://www.amazon.com/FAVI-Entertainment-Wireless-Keyboard-TouchPad/dp/B003UE52ME/ref=sr_1_1?ie=UTF8&amp;qid=1348346002&amp;sr=8-1&amp;keywords=trackpad+keyboard+laser+mini" target="_blank">cheapo mini keyboard-trackpad combo</a>. Apart from the video cable, the system is totally wireless! I zip-tied the RasPi to my belt and the keyboard to my wrist. Everything is wearable with zip ties!
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2012/09/2012-09-22-01.45.28.jpg"><img class="aligncenter size-medium wp-image-261" title="2012-09-22 01.45.28" src="http://blog.makerbar.com/wp-content/uploads/2012/09/2012-09-22-01.45.28-300x225.jpg" alt="" width="300" height="225" /></a>
+
+No one brought a wi-fi dongle, so no wireless intertubes. The upside is that when I wanted to go online, I could actually jack into an Ethernet port!
+
+I built this with parts lying around, but a similar setup would cost just over $100. Not bad for a fully-functional wearable computer, especially one with connectivity and around four hours of battery! Plus, ladies love a Pi in the Face. Maker ladies, at least.
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2012/09/2012-09-21-21.14.23.jpg"><img class="aligncenter size-medium wp-image-262" title="2012-09-21 21.14.23" src="http://blog.makerbar.com/wp-content/uploads/2012/09/2012-09-21-21.14.23-300x225.jpg" alt="" width="300" height="225" /></a>
+
+If you're interested in wearables, cyborg tech, and augmented reality, I write about the subjects weekly on<a href="http://twitter.com/#!/zackfreedman" target="_blank"> my blog</a>. Thanks to Rob and the RasPi crew for making such a versatile micro-computer!
