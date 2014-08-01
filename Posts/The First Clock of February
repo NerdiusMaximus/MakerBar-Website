@@ -1,0 +1,63 @@
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/01/wpid-20130127_220513_HDR.jpg"><img class="alignnone size-full" title="20130127_220513_HDR.jpg" alt="image" src="http://blog.makerbar.com/wp-content/uploads/2013/01/wpid-20130127_220513_HDR.jpg" /></a>S.n
+
+By the end of the week it will be February and we'll be on to our February theme, MakerBar, it's about time. The members are talking about clock and calendar projects and there are two clock classes in the works <a href="http://www.meetup.com/MakerBar/events/99976032/">Raspberry Python - Talking Clock Feb 9th</a> and <a href="http://www.meetup.com/MakerBar/events/101981172/">ChipKIT for Organic Lifeforms: Clock Edition Feb 23th</a>.
+
+This then is the first clock of February, a ChipKIT Uno32 with a ChipKIT Basic I/O Shield attached. As befits a beginning this is a very simple project.
+
+Step 1 Solder in RTC Crystal (<a href="http://hacking.majenko.co.uk/node/33">based on instructions here</a>)
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/01/wpid-wp-1359506738369.jpg"><img class="alignnone size-full" title="wp-1359506738369.jpg" alt="image" src="http://blog.makerbar.com/wp-content/uploads/2013/01/wpid-wp-1359506738369.jpg" /></a>
+
+Step 2 Attached Basic I/O Shield (<a href="http://www.microchip.com/pagehandler/en_us/promo/chipKIT/">got this for contest here</a>)
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/01/wpid-wp-1359506583510.jpg"><img class="alignnone size-full" title="wp-1359506583510.jpg" alt="image" src="http://blog.makerbar.com/wp-content/uploads/2013/01/wpid-wp-1359506583510.jpg" /></a>
+
+Step 3 Program (<a href="http://www.digilentinc.com/Products/Detail.cfm?NavPath=2,892,936&amp;Prod=CHIPKIT-BASIC-IO-SHIELD">combined OLED example here</a> with <a href="http://hacking.majenko.co.uk/chipkit-uno32-real-time-clock-library">RTC example here</a>)
+
+<code>
+#include &lt;IOShieldOled.h&gt;
+#include &lt;RTCC.h&gt;</code>
+
+void setup(){
+IOShieldOled.begin();
+Serial.begin(9600);
+
+// Initialize the RTCC module
+RTCC.begin();
+
+// Set the time to something sensible
+RTCC.hours(11);
+RTCC.minutes(45);
+RTCC.seconds(0);
+RTCC.year(13);
+RTCC.month(01);
+RTCC.day(29);
+}
+
+void loop(){
+char date[9];
+char time[9];
+
+// Format the time and print it.
+sprintf(date,"%02d/%02d/%02d", RTCC.day(), RTCC.month(), RTCC.year());
+sprintf(time,"%02d:%02d:%02d", RTCC.hours(), RTCC.minutes(), RTCC.seconds());
+
+//Clear the virtual buffer
+IOShieldOled.clearBuffer();
+
+//Chosing Fill pattern 0
+IOShieldOled.setFillPattern(IOShieldOled.getStdPattern(0));
+//Turn automatic updating off
+IOShieldOled.setCharUpdate(0);
+IOShieldOled.clearBuffer();
+IOShieldOled.setCursor(0, 0);
+IOShieldOled.putString(date);
+IOShieldOled.setCursor(0, 1);
+IOShieldOled.putString(time);
+IOShieldOled.setCursor(0, 2);
+IOShieldOled.putString("MakerBar");
+IOShieldOled.putString("ChipKit Clock");
+IOShieldOled.updateDisplay();
+}
+
+This clock will become the basis of the class project for the February 23th class,  <a href="http://www.meetup.com/MakerBar/events/101981172/">ChipKIT for Organic Lifeforms: Clock Edition</a>. The clock in that class will not rely on this shield and will have functionality this clock does not, like setting the time, and time permitting an alarm.
+
+Full, latest code available <a title="in my Dropbox." href="https://www.dropbox.com/s/wd36j0nrulkflui/OLED_Clock.pde">here</a>.
