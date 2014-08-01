@@ -1,0 +1,37 @@
+<a href="http://blog.makerbar.com/wp-content/uploads/2012/10/2012-10-01-03.17.35.jpg"><img class="aligncenter size-medium wp-image-291" title="2012-10-01 03.17.35" src="http://blog.makerbar.com/wp-content/uploads/2012/10/2012-10-01-03.17.35-300x225.jpg" alt="" width="300" height="225" /></a>
+
+I present the ArduinoLCD by EarthMake, the most gratuitous Arduino knockoff of them all.
+
+The ArduinoLCD is like a mullet - business in the front (ATMega328 Arduino R3 clone) and party in the back (3.5" touchscreen). A GPU coprocessor handles the graphics, letting you create controls and displays with a janky proprietary script.
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2012/10/2012-10-01-03.10.40.jpg"><img class="alignleft size-thumbnail wp-image-293" title="2012-10-01 03.10.40" src="http://blog.makerbar.com/wp-content/uploads/2012/10/2012-10-01-03.10.40-150x150.jpg" alt="" width="150" height="150" /></a><a href="http://blog.makerbar.com/wp-content/uploads/2012/10/2012-10-01-03.11.54.jpg"><img class="alignleft size-thumbnail wp-image-295" title="2012-10-01 03.11.54" src="http://blog.makerbar.com/wp-content/uploads/2012/10/2012-10-01-03.11.54-150x150.jpg" alt="" width="150" height="150" /></a>
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2012/10/2012-10-01-03.11.08.jpg"><img class="alignleft size-thumbnail wp-image-294" title="2012-10-01 03.11.08" src="http://blog.makerbar.com/wp-content/uploads/2012/10/2012-10-01-03.11.08-150x150.jpg" alt="" width="150" height="150" /></a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+I received a prerelease ArduinoLCD at the New York Maker Faire. The panel and driver seems equivalent to their ezLCD 301. Hooray design reuse!
+<ul>
+	<li><a href="http://dlnmh9ip6v2uc.cloudfront.net/datasheets/LCD/Color/ezLCD-30xManualv1p40-1.pdf" target="_blank">ezLCD Instruction Manual (PDF)</a></li>
+	<li><a href="https://docs.google.com/document/pub?id=1keqZNbGWuRGwjrfj25guu3WlB87gWXMB3NQOckiN68Q&amp;pli=1" target="_blank">ezLCD with Arduino App Note </a></li>
+	<li><a href="https://www.sparkfun.com/products/11000" target="_blank">SparkFun ezLCD 301 Product Page</a></li>
+	<li><a href="ezLCD-30X Font Converter" target="_blank">Font Converter (Windows)</a></li>
+	<li><a href="ezLCD-30X Font Converter" target="_blank">"Termie" Terminal Software (Windows)</a></li>
+</ul>
+I believe the GPU is connected to the Arduino via serial. I'd normally dig in (select Arduino R3 in Arduino to write to it) but I want to dump the factory sketch before I clobber it with Blink. Mike has a full Atmel debugger at the space, so I'll head by tomorrow and upload it here.
+
+<a href="http://blog.makerbar.com/wp-content/uploads/2012/10/2012-10-01-03.17.58.jpg"><img class="aligncenter size-medium wp-image-297" title="2012-10-01 03.17.58" src="http://blog.makerbar.com/wp-content/uploads/2012/10/2012-10-01-03.17.58-300x225.jpg" alt="" width="300" height="225" /></a>
+
+Initial thoughts: This is a classy board. If the ArduinoLCD acts like a HID, it can make an interesting auxiliary keyboard or mouse. Otherwise, this is an expensive board with some interesting gadgetry possibilities. I'll be building it into a piece of wearable technology, and I'll keep you posted.
+
+PS: the included USB cord has a fabric sheath of some kind and is total swag.
