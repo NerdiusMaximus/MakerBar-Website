@@ -1,0 +1,31 @@
+While following the <a href="http://www.ladyada.net/make/minipov3/programming.html" target="_blank">miniPOV programming instructions</a> from Adafruit, we ran into the following error while compiling mypov.c  (running make mypov.hex):
+
+[code]
+mypov.c:81:9: error: attempt to use poisoned &quot;SIG_TIMER1_COMPA&quot;
+mypov.c: In function ‘SIG_TIMER1_COMPA’:
+mypov.c:81:1: warning: ‘SIG_TIMER1_COMPA’ appears to be a misspelled signal handler [enabled by default]
+make: *** [mypov.o] Error 1
+[/code]
+
+We fix it by modifying the Makefile in the minipovfirmware directory from:
+[code]
+CFLAGS = -g -O$(OPT) \
+-funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums \
+-Wall -Wstrict-prototypes \
+-DF_CPU=$(F_CPU) \
+-Wa,-adhlns=$(&amp;lt;:.c=.lst) \
+$(patsubst %,-I%,$(EXTRAINCDIRS)) \
+-mmcu=$(MCU)
+[/code]
+to:
+
+[code highlight="7,8"]
+CFLAGS = -g -O$(OPT) \
+-funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums \
+-Wall -Wstrict-prototypes \
+-DF_CPU=$(F_CPU) \
+-Wa,-adhlns=$(&amp;lt;:.c=.lst) \
+$(patsubst %,-I%,$(EXTRAINCDIRS)) \
+-mmcu=$(MCU) \
+-D__AVR_LIBC_DEPRECATED_ENABLE__
+[/code]
