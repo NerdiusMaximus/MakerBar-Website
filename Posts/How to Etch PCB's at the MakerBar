@@ -1,0 +1,107 @@
+The MakerBar has a complete PCB fabrication lab available for members and nonmembers alike; with a few hours and some caustic chemicals, you can <strong>etch your own double-sided circuit boards</strong> at the MakerBar! You can prototype your next circuit project in hours, not months, with help from your local hackerspace.
+
+These are the basic instructions to familiarize yourself with before coming to the MakerBar. They're also a good reference if you're getting into etching yourself - Zack made our own tools using stuff he bought at big-box chains, so you can set up your own fab lab!
+
+To use the fab lab, prepare and check your artwork ahead of time, and bring it to a Soldering Wednesday or Craft Night along with a sensitized positive PCB. We don't stock PCB's, and our laser printer isn't set up yet, so come prepared. Please chip in $5 per session to replace spent reagents, carbide bits, and blades.
+
+I'll repeat that: <b>YOU NEED TO LAY OUT YOUR BOARD AND PRINT YOUR ARTWORK FIRST, AT HOME. MAKERBAR MEMBERS WILL PROBABLY NOT LAY OUT YOUR BOARD FOR YOU!</b>
+
+<strong>0) Prepare and print your artwork at home.</strong> The fab lab is pretty accurate and capable of producing most boards that a professional house can - you're mostly limited by your skill. To maximize the chance of good results, use the biggest pads, vias, and traces you can, and route traces as far from each other as possible. Make your drills as small as possible. If your board is double-sided, remember that through-holes and vias will not be plated; ensure you can solder the lead or wire via on both sides.
+
+Print your artwork on <strong>laser </strong><strong>transparency</strong> using a <strong>laser printer </strong>set to <strong>at least 600 DPI</strong> and <strong>maximum intensity. </strong>Include <strong>alignment marks or fiducials</strong> 1/4" off the board to help you align the artwork. Don't use glossy paper - we don't have the equipment for toner transfer. You can try inkjet transparencies or printing on tracing paper at your own risk.
+
+To print in EAGLE, hide all layers except for <strong>Bottom, Pads, and Vias</strong>. Print <strong>two copies</strong> using the above parameters in <strong>black and white</strong>.
+
+Then, hide all layers except for <strong>Top, Pads, and Vias</strong>. Print <strong>two copies</strong> using the parameters in <strong>black and white, mirrored.</strong>
+
+Then, put on your scruffiest clothes and get your butt to the MakerBar for a Soldering Wednesday or Craft Night Friday. Remember to come early, there's a lot of setup and cleanup.
+
+<strong>1) Assemble the materials. </strong>Clear off a section of work table. Go into the fab lab drawer and bring the<strong> blacklights, scoring jig, hot tray, etchant, and brush</strong> back to your workstation. At the workshop table, grab a <strong>utility knife, three blades, blue tape, flat file, Sharpie, and thick disposable gloves.</strong> Make sure the <strong>Dremel press</strong> is set up in the machine shop and <strong>carbide bits</strong> are available. Make sure there's a working <strong>power strip </strong>at your workstation.
+
+<strong>2) Preheat reagents and set up lights.</strong> Plug in the hot tray and turn up the dial all the way. Make sure the thermometer's working. Put the etchant and developer on the hot tray with the lids still on.
+
+Prop up the blacklights so they're about <strong>six inches off the table </strong>and<strong> the bulbs are pointing downwards and towards each other</strong>. Tissue boxes or jars work well for this. Plug them in but don't turn them on yet.
+
+Check back on the chemicals. Your objective is to <strong>keep the chemicals 100-120°.</strong> Keep a constant eye on them. Make sure the hot plate doesn't exceed 120 degrees at any time.
+
+<strong>3) Prepare your masks.</strong> Cut your artwork,<strong> leaving at least a 1/2" margin on the top and left, and about 1/4" margin on the bottom and right</strong>. <strong>Tape a bottom-side piece</strong> to the scoring jig, <strong>toner side up</strong>, being careful to leave 1/4" between the tape and the artwork. Tape the other bottom-side piece on top, being <i>ultra-careful</i> that your alignment marks and holes line up. <strong>Tape a top-side piece</strong> <strong>toner side down</strong> on top, again being careful to line everything up. Tape the last piece into place.
+
+Carefully peel off the entire thing and fold the tape over to seal it. Trim the long side down, leaving at least 1/4" sticking out. Seal it flat with your thumbnail and hold it up to the light to make sure it's <em>perfectly aligned</em>. If it's not, peel the tape apart and start over. This is the most critical part of the process, so align them <strong><em>perfectly</em>.</strong>
+
+Check on the chemicals again. If they're approaching 120°, turn down the heat. Keep a close eye on them throughout the process - I just wanted to remind you here because you already forgot.
+
+<strong>4) Score and break the PCB. </strong>PCB's are very hard to cut, so we score and break them. The jig is based on a design on Instructables and simplifies the process. Using the scoring jig as a straightedge, draw lines along the full length of the board that extend about 1/4" beyond your masks in both directions. Repeat for the bottom, making sure they line up.
+
+Loosen the wing nuts all the way, slide your board underneath, and align one pencil line with one bar. Slip two razors between the bars and slide them together, then tighten the wing nuts as well as you can. Remove the razors and score ten times, hard, with the utility knife. Loosen the wing nuts, flip the board, and repeat.
+
+Loosen the wing nuts again and slide the board out until the scored lines align with the edge of the board. Clamp down hard again, close your eyes, and put your weight on the overhanging edge, bending the board until it gives way.
+
+Clean up the board edges with the file. Make sure to always stroke the file away from the center of the board, or you might accidentally lift the protective film.
+
+Repeat with the other line to finish the board.
+
+Take apart the jig, vacuum the work area, and wipe down the jig with a moist towel. Even if it looks like you didn't make a mess, fiberglass is carcinogenic and creates microscopic splinters. Reassemble the jig, rotate or replace the knife blade, and put the pointy objects away.
+
+<strong>5) Mount the artwork. </strong>Test-fit the artwork on the board. You should be able to slip the artwork over  the board, with the alignment marks extending beyond the side of the board. You should have room on the other sides to tape the artwork directly to the board. If not, trim the artwork or the board until you can.
+
+The next few steps need to be done quickly and diligently or you won't get sharp results. Check again and confirm that your artwork is prepared, your board is cut and filed, and the frame and tape are handy. If you can turn off the lights, do so, leaving one light on the other side of the room on so you can see. If you can't, bring the board, artwork, tape, and frame to the spray booth.
+
+Remove the back from the frame and polish the glass.
+
+Peel off the protective film from both sides of the board. Handle the vulnerable board by the edges, like a CD. Slip the artwork over the board, ensuring that both layers of the top and bottom are in the right spot. Make sure you didn't accidentally get a layer on the wrong side. Make sure the alignment marks align, then tape the mask directly to the board on both sides. Be careful not to cover any of the artwork!
+
+Drop the wrapped board onto the center of the frame and replace the back. Turn all four tabs in to lock the board into place - it will be difficult. Make sure the art and board are pressed tightly against the glass all over - re-do the frame if not.
+
+<strong>6) Expose!</strong> Bring the frame to the blacklights. Turn on both lights and put the frame under them. Don't touch it for <strong>six minutes</strong> while it exposes. If you feel like living dangerously, expose for eight minutes to get sharper traces at the risk of bridging traces. If you think you goofed somewhere, expose for five minutes to hide imperfections but risk dissolving too much copper.
+
+While you're waiting, now would be an excellent time to make sure your chemicals are still 120°.
+
+<strong>7) Expose the other side.</strong> If you're etching a single-sided sensitized board, ignore this step. Otherwise, return to the dark, open the back, flip the board, lock it back into place, check that it's crushed against the glass again, and expose for another six to eight minutes.
+
+<strong>8) Inspect and touch up.</strong> Continuing to move quickly, return to the dark and shut off the blacklights. Remove the board, take off the artwork, and inspect. Traces and stuff should be a light green, everything else a dark blue. Edges should be sharp and well-defined. If not, cut your losses and throw out the board.
+
+Check for broken traces or missing details and touch them up with a Sharpie. The Sharpie will resist the etch just like the exposed ink, letting you do light rework.
+
+Check for overlaps or bridges and scrape the offending areas off with a craft knife. Even if it looks perfect, you may want to lightly do this in areas where traces and pads are very close together, to prevent bridging.
+
+<strong>9) Develop the resist.</strong> Put on disposable gloves and remove the lid from the developer. Make sure the paint brush is handy. Hold the board under the surface of the developer and move it back and forth while counting to fifteen, being careful not to scrape it against the bottom of the container.
+
+Pull out the board; if it's bleeding blue color, it's on its way. Dip the brush in developer and gently wipe the top and bottom. Otherwise, dip it back in and repeat.
+
+If it takes more than five minutes, the developer is done. Remember to dispose of it when you're finished.
+
+Developing is done the instant the copper areas are reddish and the resist areas are a sharply-defined dark blue.
+
+The moment the board looks like this, give it a final wipe on both sides, rush to the bathroom, and rinse the board on both sides with lots of water. Wrap it in a paper towel and bring it back, then wash the paint brush. The light-sensitive part is over, so you dont need to move quickly any more.
+
+<strong>10) Etching time.</strong> Replace the lid of the developer and remove the lid of the etchant. The etchant is ferric chloride and stains unimaginably. Dip the board into the etchant the same way you did the developer and move it around.
+
+The etchant takes five to fifteen minutes, depending on how many boards it's been used for. Periodically take the board out, inspect, flip over, and repeat. You can occasionally dip the brush into the etchant and dab at the board.
+
+Etching doesn't seem like anything is happening until it suddenly begins dissolving at the edges. Just keep at it, be patient, and look for translucent parts where the fiberglass board is visible. If it takes more than fifteen minutes, the etchant is done. Remember to dispose of it when you're finished.
+
+When translucent fiberglass is visible at the center, you're done. Dip the brush and wipe once on top and bottom to clear away residue, then rinse the board under lots and lots of water until it stops running yellow.
+
+<strong>11) Clean up. </strong>Replace the lid of the chemicals and move them from the hot plate to sheets of paper towel on the workspace. Unplug the hot plate. Wipe down the sink and wash the brush thoroughly, then throw out the gloves.
+
+Wet a paper towel, squeeze out most of the water, add a bit of vinegar, and wipe down the hot tray and chemical containers. Wash your hands and put away everything but the chemicals.
+
+<strong>12) Drill baby drill!</strong> Fiberglass is a pain to drill - only a tungsten-carbide bit at 30,000 RPM or more will do it cleanly. Pull up a light near the Dremel and slot in a 1/8" collet. Don't use the chuck for this, it's not stable enough. Tighten the three tighteners on the Dremel and clamp it down hard on three sides. Put a folded sheet of moist paper towel on a piece of scrap wood and lay the PCB on top. Load a 0.038 bit.
+
+Slowly and carefully lower the bit into a pad and let it drill. Unlike a power drill or press, where you push against the drill to force it into the workpiece, the carbide bit works by gradually scraping away layers of fiberglass. Pull it down lightly and let the tool do all of the work, or you'll break bits. Work slowly and deliberately to drill all of the pads.
+
+When the pads are done, switch to a 0.020 bit and drill out the vias.
+
+When you're done, return the bit to the case and vacuum up the area.
+
+<strong>13) Clean up.</strong> Return everything to where you found it. If the chemicals or tray are still hot, wait until they cool to room temperature before putting them in a drawer. Vacuum and wipe everything down.
+
+<strong>14) Solder. </strong>The moment you've been waiting for! Wipe the PCB with a dry cloth and get to it. You don't need to remove the resist - in fact, soldering through it will melt it and flux the connection, making the job even easier than usual.
+
+Unlike most soldering, the holes and vias are not plated. This means that if a pad has leads on both sides, you need to solder both sides. For vias, stick a piece of stripped 26 AWG wire through the via and solder on both sides.
+
+If you're doing surface mount, or if you just want a cleaner board, you can remove the resist by saturating a cotton ball or foam brush with 95% denatured alcohol and wiping it down. Everclear and acetone work too. Then it's off to The Hotness!
+
+If you'd like solder mask, thoroughly clean the area and carefully apply common nail polish, taking care not to come near components or leads in case you need to rework them.
+
+<strong>15) You're done!</strong> Hopefully after all this, your board works perfectly and you can move to manufacturing. While the setup and cleanup take a while, the total time to etch is far less than half an hour - planning with friends or prototyping many boards at once can save some serious time!
