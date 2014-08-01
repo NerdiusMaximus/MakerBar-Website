@@ -1,0 +1,12 @@
+<a href="http://blog.makerbar.com/wp-content/uploads/2013/04/wpid-20130425_090455.jpg"><img title="" class="alignnone size-full" alt="image" src="http://blog.makerbar.com/wp-content/uploads/2013/04/wpid-20130425_090455.jpg" /></a>
+
+
+
+I finally got time to hack together the prototype for the class project for my class this weekend. We're going to be using the RaspberryPi to connect to Plivo and make phone calls, nominally to our Mom's. I thought one button was boring so our call Mom Button class will actually have 4 buttons suggested as:
+
+* Call Mom 
+* Call Dad
+* Text Mom "I love you" 
+* Mother's day special 
+
+For more details or to sign up see <a href="http://meetu.ps/P75PY">Meetup.</a>
